@@ -68,7 +68,7 @@ class DirManip(object):
                         if delete_move == 'DELETE':
                             shutil.rmtree(file[0]) #Delete the folders
                         elif delete_move == 'MOVE':
-                            shutil.move(file[0], toPath) #Move the folders
+                            shutil.move(file[0], to_path) #Move the folders
                             
                 counter += 1
 
